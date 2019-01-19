@@ -8,7 +8,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #db7093;
+    background-color: #ffffff;
     box-shadow: 5px 10px #c0c0c0;
   /*  border-radius: 5px;    */
 }
@@ -27,7 +27,3 @@ li a {
     border-radius: 2px;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: darkcyan;    
-}
