@@ -1,7 +1,12 @@
 
  * {
     box-sizing: border-box; 
-  }
+   
+ }
+ body{
+    background-image:url(../images/concrete_seamless1.png);
+ }
+     
   header {
     
     position: absolute;
@@ -93,6 +98,7 @@ li a:hover {
 }
 
  .wrapper {
+   
     width: 960px;
     margin: 0 auto;  
   }
@@ -100,6 +106,15 @@ li a:hover {
       float: left;
       border: 10px;
       margin: 10px;
+  }
+  img.nohover:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=1.0);
+  }
+
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);  
   }
   #middle{
     height:1400px;
@@ -164,6 +179,7 @@ li a:hover {
     position: relative;
     z-index:1;
 }
+
  
 
   .games{
