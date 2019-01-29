@@ -1,33 +1,18 @@
 
  * {
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
   }
-  html{
-      width: 1200;
-  }
-   
-  
-  body {
-    margin: 0px;
-    
-    color: #333;
-  
-    background-image: url("images/concrete_seamless1.png");
-    background-repeat: repeat;
-  }
-  
   header {
-    width: 1200px;
+    
     position: absolute;
     top: 0;
     width: 100%;
     margin: 0;
     left: 0px;
-    background-color: white;
+    background-color: #ffffff;
     height: 80px;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 140px;
     color: #777777;
     margin-bottom: 20px;
     border-bottom-style: solid;
@@ -35,30 +20,23 @@
     border-bottom-width: 4px;
    
   }
+  #spacer{
+      height:80px;
+  }
  
   nav {
       margin: auto;
      height: 50px;
    align-content: center;
     width: 960px;
-    background: white;
-}
-#navleft{
-    float: left;
-    width:120px;
-}
-#navright{
-    float: right;
-    width:120px;
+    background: #ffffff;
 }
  
-
 ul {
 
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #ffffff;
    
 }
@@ -73,20 +51,22 @@ li a {
     color: #777777;
     text-align: center;
     padding: 14px 16px;
+    font-size: 24px;
     text-decoration: none;
     border-style: none;
     border-radius: 2px;
 }
-#spacer{
-    height: 60px;
-}
+li a:hover {
+    background-color: #4aaaa5;
+  }
+ 
 #Name{
     top: 0;
     text-align: center;
     position:absolute;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 1.5em;
-    color: white;
+    color: #ffffff;
     width: 15%;
     height: 80px;
     padding: 20px;
@@ -95,79 +75,61 @@ li a {
     border-bottom-color: #cccccc;
     border-bottom-width: 4px;
 }
-h1{
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 2em;
-    color: #4aaaa5;
-    
-    background-color: white;
-    border-bottom-style: solid;
-    border-bottom-color: #4aaaa5;
-    border: 6px;
-     
-   
-}
+ 
 #heading{
+    display: block;
+    font-size: 2em;
     width: 920px;
-     
+    text-indent: 0;
+    font-weight: bold;
     border-bottom-style: solid;
     border-bottom-color: #cccccc;
     border-bottom-width: 4px;
-    padding: 2px;
+    padding-bottom: 40px;
     margin: auto;
-   
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    background-color: #ffffff;
 }
-#contact{
-    width: 920px;
-     
-    border-bottom-style: solid;
-    border-bottom-color: #cccccc;
-    border-bottom-width: 4px;
-    padding: 2px;
-    margin: auto;
-   
-}
-#portfolio{
-    width: 920px;
-     
-    border-bottom-style: solid;
-    border-bottom-color: #cccccc;
-    border-bottom-width: 4px;
-    padding: 2px;
-    margin: auto;
-   
-}
- 
-#left{
-     float: left;
-     width:120px;
- }
- #right 
- {float: right;
- width: 120px;
- }
- 
-  
-  #middle {
-    margin: auto;
+
+ .wrapper {
     width: 960px;
-    padding: 0;
-    border:0;
-    max-height: 1200px;
-    min-height: calc(100vh - 70px);
-     
+    margin: 0 auto;  
+  }
+  img{
+      float: left;
+      border: 10px;
+      margin: 10px;
+  }
+  #middle{
+    height:1400px;
+    font-size: 24px;
+    line-height: 32px; 
     margin-bottom: 80px;
     margin-top: 80px;
-    background-color: white;
+    background-color: #ffffff;
     text-indent: 50px;
-  }
-  input[type=text], select {
-    width: 95%;
-    padding: 12px 20px;
-    margin: 8px 8px;
+    color: #777777;
+    padding: 40px;
+}
+
+  
+  input[type=email]{
+    width: 100%;
+    padding: 14px 18px;
+    margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
-    
+    text-indent: 80px;
+    box-sizing: border-box;
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 14px 18px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+   
     box-sizing: border-box;
   }
   input[type=submit] {
@@ -179,34 +141,55 @@ h1{
     border: none;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     cursor: pointer;
+     
   }
-  
- 
-  
-  img {
-    padding: 5px;
-    float: left;
+  input[type=submit]:hover {
+    background-color: #1f6e6a;
   }
- 
-  
-  #spacer2{
-    position: absolute;
-    height: 60px;
+  #messagebox {
     width: 100%;
+   
+    height: 200px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    
+    box-sizing: border-box;
+  }
+  .box{
+      width: 300px;
+      height: 200px;
+      float: left;
+      padding: 10px;
+      margin: 20px;
+    position: relative;
+    z-index:1;
 }
-  
+ 
+
+  .games{
+    padding: 10px;
+    position:absolute;
+    width:300px;
+    height: 50px;
+    background-color:#4aaaa5;
+    color:#ffffff;
+    top:140px;
+    margin: 10px;
+    font-size:17px;
+    z-index:2;
+    text-align: center;
+    text-indent: 0;
+  }
+
   footer {
-    border-top-style: solid;
-    border-top-color: #4aaaa5;
-    border-top-width: 8px;
+    border-top: 8px solid #4aaaa5;
     position: absolute;
     width: 100%;
     height: 80px;
     padding: 30px;
-    
     text-align: center;
     vertical-align: bottom; 
-    color: white;
+    color: #ffffff;
     clear: both;
     background-color: #666666;
   }

@@ -14,12 +14,11 @@
                 
                 <nav>
                         <div id= "Name">Chris Paul</div>
-                    <ul>
-                           
-                        <li><a  href="index.html">About</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
+                        <ul>
+                                <li><a href="contact.html">Contact</a></li> 
+                               <li><a href="portfolio.html">Portfolio</a></li>
+                               <li><a  href="index.html">About</a></li>
+                           </ul>
                 </nav>
                 <section id="navright"></section>
         </header>
@@ -28,29 +27,33 @@
               </section>
               
              
-      <section id="left"></section>
-                <section id="middle">
-                    <div id="contact"> <h1>Contact</h1></div>
+              <div class="wrapper">
+                  <section id="middle">
+                    <div id="heading"> Contact</div>
                     <form action="/action_page.php">
                         <br>
-                        First name:<br>
-                        <input type="text" name="firstname" value="First">
+                        Name:<br>
+                        <input type="text" id= "fname" name="firstname" >
                         <br>
-                        Last name:<br>
-                        <input type="text" name="lastname" value="Last">
+                        E-mail:<br>
+                        <input type="email" id= "email" name="email" autocomplete="on">
                         <br>
+                       
                         Message<br>
-                        <input type="text" name="message"><br>
+                        <input type="textarea" id="messagebox" name="message"><br>
+
+
                         <input type="submit" value="Submit">
                       </form> 
-                 </section>
-                 <section id="right"></section>
+                   
+                    </section>  
+                    
+                  
                 
              
       
-            <section id="spacer2">
-                    
-                  </section>
+           
+                 </div>
       
         <footer>
                 <p>Copyright 2019</p>
