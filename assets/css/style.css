@@ -84,7 +84,7 @@ li a:hover {
 #heading{
     display: block;
     font-size: 2em;
-    width: 920px;
+    width: 880px;
     text-indent: 0;
     font-weight: bold;
     border-bottom-style: solid;
@@ -126,6 +126,8 @@ img:hover {
     text-indent: 50px;
     color: #777777;
     padding: 40px;
+    border: 1px solid #ccc;
+  
 }
 
   
