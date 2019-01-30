@@ -125,28 +125,30 @@ img:hover {
     background-color: #ffffff;
     text-indent: 50px;
     color: #777777;
-    padding: 40px;
+    padding: 40px 10px 10px 10px;
     border: 1px solid #ccc;
-  
+   
 }
+ 
 
   
   input[type=email]{
-    width: 100%;
+    width: 90%;
     padding: 14px 18px;
-    margin: 8px 0;
+   
     display: inline-block;
     border: 1px solid #ccc;
     text-indent: 80px;
     box-sizing: border-box;
+    margin-left: 40px;
   }
   input[type=text] {
-    width: 100%;
+    width: 90%;
     padding: 14px 18px;
-    margin: 8px 0;
+    
     display: inline-block;
     border: 1px solid #ccc;
-   
+    margin-left: 40px;
     box-sizing: border-box;
   }
   input[type=submit] {
@@ -154,22 +156,23 @@ img:hover {
     background-color: #4aaaa5;
     color: white;
     padding: 14px 20px;
-    margin: 8px 0;
+   
     border: none;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     cursor: pointer;
+    margin-left: 40px;
      
   }
   input[type=submit]:hover {
     background-color: #1f6e6a;
   }
   #messagebox {
-    width: 100%;
+    width: 90%;
    
     height: 200px;
     display: inline-block;
     border: 1px solid #ccc;
-    
+    margin-left: 40px;
     box-sizing: border-box;
   }
   .box{
